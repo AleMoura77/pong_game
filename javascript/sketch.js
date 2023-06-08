@@ -82,10 +82,10 @@ function mostraRaquete(x, y){
 
 
 function movimentaRaquete(){
-  if(keyIsDown(UP_ARROW)){
+  if(keyIsDown(87)){
     yRaquete -= 10;
   }
-  if(keyIsDown(DOWN_ARROW)){
+  if(keyIsDown(83)){
     yRaquete += 10;
   }
 }
@@ -99,10 +99,10 @@ function colisaoRaquete(x,y){
 }
 
 function movimentaRaquete2(){
-  if(keyIsDown(87)){
+  if(keyIsDown(UP_ARROW)){
     yRaquete2 -= 10;
   }
-  if(keyIsDown(83)){
+  if(keyIsDown(DOWN_ARROW)){
     yRaquete2 += 10;
   }
 }
